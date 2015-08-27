@@ -1,7 +1,7 @@
 <?php
 
-include_once("i/utils.php");
-include_once("i/settings.php");
+include_once("inc/utils.php");
+include_once("inc/settings.php");
 
 $answer = buildAnswer($colors, $cells);
 $answer2a = encodeAnswer($answer);

@@ -2,8 +2,8 @@
 
 // var_dump($_POST);
 chdir("../");
-include_once("i/utils.php");
-include_once("i/settings.php");
+include_once("inc/utils.php");
+include_once("inc/settings.php");
 
 if($_POST['action'] == "submitSolution") {
     $answer2 = $_POST['gameSession'];
